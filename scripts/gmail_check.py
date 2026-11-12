@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append("..")
+
 from app.gmail import Gmail, get_body, get_headers
 
 gmail = Gmail()
