@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     google_client_secret: str
     google_refresh_token: str
     database_url: str
+    ANTHROPIC_API_KEY: str
     classifier_model: str = "anthropic:claude-haiku-5-5"
     agent_model: str = "anthropic:claude-sonnet-5-5"
     poll_interval_seconds: int = 60
